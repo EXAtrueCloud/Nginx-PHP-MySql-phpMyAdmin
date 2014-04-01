@@ -18,7 +18,7 @@ Tự động cài đặt NGINX,PHP-FPM, MySql, phpMyAdmin trên CentOS VPS với
 
 ############ Cài đặt
 
-Kết nối với VPS của bạn bằng Putty và chạy một câu lệnh duy nhất:
+Kết nối với VPS của bạn bằng SSH hoặc Putty và chạy một câu lệnh duy nhất:
 
 wget -O /tmp/install-nginx-php-mysql.sh https://raw.github.com/EXAtrueCloud/Nginx-PHP-MySql-phpMyAdmin/master/install-nginx-php-mysql.sh; sh /tmp/install-nginx-php-mysql.sh;
 
