@@ -28,18 +28,27 @@ Khi cài đặt hoàn thành, các thông tin về kết quả cài đặt sẽ 
 
 ====== Nginx + PHP-FPM + MYSQL Successfully installed
 
-====== MySql root password is lw7t2thgexu=  #Mật khẩu đăng nhập MySQL cho tài khoản root
+====== MySql root password is lw7t2thgexu=  #Mật khẩu đăng nhập MySQL cho tài khoản root
 
-====== SFTP Username is myweb   # Tài khoản đăng nhập SFTP là myweb
+====== SFTP Username is myweb   # Tài khoản đăng nhập SFTP là myweb
 
-====== SFTP Password is lw7t2thgexu=  # Mật khẩu đăng nhập SFTP với tài khoản myweb là cft.lw7t2thg
+====== SFTP Password is lw7t2thgexu=  # Mật khẩu đăng nhập SFTP với tài khoản myweb là cft.lw7t2thg
 
-====== Website document root is /www/yourdomain   # Thư mục web
+====== Website document root is /www/yourdomain   # Thư mục web
 
 ====== Now you can visit http://your-ip-address/
 
-====== Eg. http://192.30.34.46 /    # Bạn có thể truy cập vào địa chỉ IP để test
+====== Eg. http://192.30.34.46 /    # Bạn có thể truy cập vào địa chỉ IP để test
 
-====== phpMyAdmin: http://192.30.34.46 /phpMyAdmin/  # Địa chỉ truy cập vào phpMyAdmin.
+====== phpMyAdmin: http://192.30.34.46 /phpMyAdmin/  # Địa chỉ truy cập vào phpMyAdmin.
 
 Hãy thử truy cập vào VPS qua địa chỉ IP, ví dụ http://192.30.34.46 /, bạn sẽ thấy webserver đã chạy sẵn sàng.
+
+
+################## Cách thêm nhiều website (tên miền) thông qua SFTP? 
+
+Bước 1, Đăng nhập SFTP -> Tạo một thư mục tên miền trong thư mục /www ví dụ như: yourdomain.com, subdomain.abc.com, domain-name.net 
+
+Bước 2, Trỏ tên miền về IP máy chủ, tải lên các tập tin php/html của bạn vào thư mục tên miền mà bạn đã tạo để thử nghiệm.
+
+
